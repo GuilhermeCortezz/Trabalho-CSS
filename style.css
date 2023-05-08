@@ -5,6 +5,7 @@
     text-decoration: none;
     list-style: none;
 }
+
 nav{
     position: fixed;
     width: 100%;
@@ -17,22 +18,36 @@ nav{
     justify-content: space-between;
     padding: 20px 5%;
     transition: all .50s ease;
+    overflow-x: auto;
 }
+
+nav::-webkit-scrollbar{
+    height: 3px;
+    background-color: #ddd;
+}
+
+nav::-webkit-scrollbar-thumb{
+    background-color: #444;
+}
+
 .navbar{
     display: flex;
 }
+
 nav ul{
   font-family: 'Jockey One';
   font-size: 25px;
   display: flex;
   justify-content: center;
 }
+
 .navbar a{
     color: black;
     padding: 5px 0;
     margin: 0px 30px;
     transition: all .50s ease;
 }
+
 .navbar a:hover{
     color: white;
 }
