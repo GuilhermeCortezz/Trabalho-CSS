@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: 'Jockey One';
 }
 
 nav{
@@ -35,7 +36,6 @@ nav::-webkit-scrollbar-thumb{
 }
 
 nav ul{
-  font-family: 'Jockey One';
   font-size: 25px;
   display: flex;
   justify-content: center;
@@ -50,4 +50,34 @@ nav ul{
 
 .navbar a:hover{
     color: white;
+}
+
+.banner img{
+    max-width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 5px #000000;
+    border-radius: 15px;
+}
+
+.banner{
+    margin-top: 100px;
+    padding: 50px;
+    margin-bottom: 40px;
+}
+
+.promo{
+    font-size: 50px;
+    margin-left: 55px;
+}
+
+#video{
+    background-color: #A73232;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+#cardapio{
+    font-size: 50px;
+    margin-left: 55px;
 }
