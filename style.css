@@ -75,6 +75,12 @@ nav ul{
     text-align: center;
     padding: 20px;
     margin-bottom: 40px;
+    
+}
+iframe{
+    width: clamp(1px,90%,560px);
+    height: 315px;
+
 }
 
 #cardapio{
