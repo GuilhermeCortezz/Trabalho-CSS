@@ -159,6 +159,55 @@ table{
 }
 .contato{
     background-color: #A73232;
-    font-size: 30px;
+    font-size: 45px;
     color: white;
+    display: flex;
+}
+.contato div{
+    padding: 20px;
+}
+.redesSociais{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+.redesSociais img{
+    width: 36px;
+}
+.informacoes{
+    width: 30%;
+    margin-top: 20px;
+}
+
+div.avaliacoes{
+    background-color: #A73232;
+}
+a.avaliacoes{
+    font-size: 50px;
+    margin-left: 55px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+    color: white;
+    font-size: 23px;
+    margin-bottom: 200px;
+}
+
+.review {
+background-color:#A73232;
+padding: 20px;
+border-radius: 5px;
+}
+
+.review h3 {
+margin-top: 0;
+}
+
+.review p {
+margin-bottom: 10px;
 }

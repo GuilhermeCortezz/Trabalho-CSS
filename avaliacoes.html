@@ -22,12 +22,117 @@
             <li><a href="index.html#ancoraCardapio">CARDÁPIO</a></li>
             <li><a href="index.html#ancoraDelivery">DELIVERY</a></li>
             <li><a href="avaliacoes.html">AVALIAÇÕES</a></li>
-            <li><a href="index.html#ancoraContato">CONTATO</a></li>
+            <li><a href="#ancoraContato">CONTATO</a></li>
         </ul>
 
         <a class="user"><img src="./imagens//nav/user.png" height="57px" width="53px"></a>
 
     </nav>
+    <main>
+    <div class="banner"><img src="./imagens/banner.jpeg"></div>
+
+    <a class="avaliacoes">Avaliações:</a>
+    <div class="container">
+        <div class="review">
+          <h3>Avaliação 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum diam sed turpis vulputate, a lacinia ex dapibus.</p>
+        </div>
+        <div class="review">
+          <h3>Avaliação 2</h3>
+          <p>Nullam convallis nunc a justo pharetra, vitae congue felis congue. Duis eu erat fermentum, consequat nunc ac, pellentesque nisl.</p>
+        </div>
+        <div class="review">
+          <h3>Avaliação 3</h3>
+          <p>Suspendisse finibus purus nec leo dignissim, vel varius mi condimentum. Vivamus nec dui vitae est tincidunt tincidunt.</p>
+        </div>
+        <div class="review">
+          <h3>Avaliação 4</h3>
+          <p>Phasellus vestibulum velit ac lacus ultricies efficitur. Ut bibendum dui eget neque tristique, non iaculis arcu facilisis.</p>
+        </div>
+        <div class="review">
+          <h3>Avaliação 5</h3>
+          <p>Fusce tincidunt lectus ac quam auctor, a tempus dui pellentesque. Morbi rhoncus urna sed dolor lacinia iaculis.</p>
+        </div>
+        <div class="review">
+          <h3>Avaliação 6</h3>
+          <p>Curabitur eu dui consectetur, iaculis eros id, sagittis metus. Cras dignissim dui non neque feugiat, sit amet consequat lectus consequat.</p>
+        </div>
+      </div>
+
+      <form id="form">
+        <fieldset>
+          <legend>Informações pessoais</legend>
+      
+          <div>
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome">
+          </div>
+      
+          <div>
+            <label for="email">Endereço de e-mail:</label>
+            <input type="email" id="email" name="email">
+          </div>
+          <div>
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+      
+          <div>
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" min="18" max="120">
+          </div>
+      
+          <div>
+            <label for="genero">Gênero:</label>
+            <select id="genero" name="genero">
+              <option value="feminino">Feminino</option>
+              <option value="masculino">Masculino</option>
+              <option value="outro">Outro</option>
+            </select>
+          </div>
+      
+          <div>
+            <label for="mensagem">Deixe sua avaliação:</label>
+            <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+          </div>
+          <p>Localidade:</p>
+
+                <label for="info3.1">Centro</label>
+                <input class="input" type="radio" name="radio" id="info3.1" value="0">
+            <br>
+
+                <label for="info3.2">Cassino</label>
+                <input class="input" type="radio" name="radio" id="info3.2" value="10">
+            <br>
+
+                <label for="info3.3">São José do Norte</label>
+                <input class="input" type="radio" name="radio" id="info3.3" value="20">
+            <br>
+      
+        </fieldset>
+
+            <div>
+            <button type="submit">Enviar</button>
+            </div>
+        
+        </form>
+
+    </main>
+
+    <footer>
+
+    <a id="ancoraContato"></a>
+    <div class="contato">
+        <div class="informacoes">Para mais informações, nos procure nas redes sociais!</div>
+        <div class="redesSociais">
+            <div class="instagram"><img src="./imagens/delivery/instagram.png"> @shushi.delivery</div>
+            <div class="facebook"><img src="./imagens/delivery/facebook.png"> Shushi Delivery</div>
+            <div class="tiktok"><img src="./imagens/delivery/tik-tok.png"> @shushi.delivery</div>
+        </div>
+    </div>
+
+    </footer>
+
 </body>
 
 </html>
