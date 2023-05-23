@@ -32,7 +32,7 @@
     <div class="banner"><img src="./imagens/banner.jpeg"></div>
 
     <a class="avaliacoes">Avaliações:</a>
-    <div class="container">
+    <div class="reviews">
         <div class="review">
           <h3>Avaliação 1</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam elementum diam sed turpis vulputate, a lacinia ex dapibus.</p>
@@ -59,63 +59,65 @@
         </div>
       </div>
 
-      <form id="form">
-        <fieldset>
-          <legend>Informações pessoais</legend>
-      
-          <div>
-            <label for="nome">Nome completo:</label>
-            <input type="text" id="nome" name="nome">
-          </div>
-      
-          <div>
-            <label for="email">Endereço de e-mail:</label>
-            <input type="email" id="email" name="email">
-          </div>
-          <div>
-            <label for="phone">Telefone:</label>
-            <input type="tel" id="phone" name="phone">
-          </div>
-      
-          <div>
-            <label for="idade">Idade:</label>
-            <input type="number" id="idade" name="idade" min="18" max="120">
-          </div>
-      
-          <div>
-            <label for="genero">Gênero:</label>
-            <select id="genero" name="genero">
-              <option value="feminino">Feminino</option>
-              <option value="masculino">Masculino</option>
-              <option value="outro">Outro</option>
-            </select>
-          </div>
-      
-          <div>
-            <label for="mensagem">Deixe sua avaliação:</label>
-            <textarea id="mensagem" name="mensagem" rows="5"></textarea>
-          </div>
-          <p>Localidade:</p>
-
-                <label for="info3.1">Centro</label>
-                <input class="input" type="radio" name="radio" id="info3.1" value="0">
-            <br>
-
-                <label for="info3.2">Cassino</label>
-                <input class="input" type="radio" name="radio" id="info3.2" value="10">
-            <br>
-
-                <label for="info3.3">São José do Norte</label>
-                <input class="input" type="radio" name="radio" id="info3.3" value="20">
-            <br>
-      
-        </fieldset>
-
+      <div class="formulario">
+        <form id="form">
+            <fieldset>
+            <legend>Deixe sua avaliação:</legend>
+        
             <div>
-            <button type="submit">Enviar</button>
+                <label for="nome">Nome completo:</label>
+                <input type="text" id="nome" name="nome">
             </div>
         
-        </form>
+            <div>
+                <label for="email">Endereço de e-mail:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+        
+            <div>
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" name="idade" min="18" max="120">
+            </div>
+        
+            <div>
+                <label for="genero">Gênero:</label>
+                <select id="genero" name="genero">
+                <option value="feminino">Feminino</option>
+                <option value="masculino">Masculino</option>
+                <option value="outro">Outro</option>
+                </select>
+            </div>
+        
+            <div>
+                <label for="mensagem">Comentários:</label>
+                <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+            </div>
+            <p>Localidade:</p>
+
+                    <label for="info3.1">Centro</label>
+                    <input class="input" type="radio" name="radio" id="info3.1" value="0">
+                <br>
+
+                    <label for="info3.2">Cassino</label>
+                    <input class="input" type="radio" name="radio" id="info3.2" value="10">
+                <br>
+
+                    <label for="info3.3">São José do Norte</label>
+                    <input class="input" type="radio" name="radio" id="info3.3" value="20">
+                <br>
+        
+            </fieldset>
+
+                <div>
+                <button type="submit">Enviar</button>
+                </div>
+            
+            </form>
+        </div>
 
     </main>
 
