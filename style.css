@@ -108,7 +108,6 @@ nav ul{
     text-align: center;
     padding: 20px;
     margin-bottom: 40px;
-    
 }
 iframe{
     width: clamp(1px,90%,560px);
@@ -188,7 +187,7 @@ a.telefone2 img{
 a.telefone2{
     padding-bottom: 50px;
 }
-td, caption {
+td, caption, th {
     border: 2px solid #000000;
     text-align: center;
     padding: 20px;
