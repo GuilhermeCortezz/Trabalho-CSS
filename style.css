@@ -218,6 +218,7 @@ table{
     display: flex;
     flex-direction: column;
     margin-left: 60px;
+    overflow: auto;
 }
 .redesSociais img{
     width: 36px;
