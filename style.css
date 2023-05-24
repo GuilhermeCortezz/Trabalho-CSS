@@ -129,21 +129,6 @@ iframe{
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-@media screen and (max-width: 768px) {
-    .cardapio figure {
-        width: 40%;
-        min-width: 40%;
-        padding: 10px;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .cardapio figure {
-        width: 80%;
-        min-width: 80%;
-        padding: 10px;
-    }
-}
 figcaption{
     font-size: 30px;
     color: white;
@@ -157,7 +142,7 @@ figure img{
 }
 .cardapio figure{ 
     width: 20%;
-    min-width: 20%;
+    min-width: 300px;
     padding: 20px;
     margin: 70px;
 }
@@ -183,6 +168,17 @@ a.telefone, a.telefone2{
 }
 a.telefone2 img{
     width: 70px;
+}
+@media (max-width: 945px){
+    .delivery{
+        font-size: 25px;
+    }
+    a.telefone img{
+        width: 30px;
+    }
+    a.telefone2 img{
+        width: 42px;
+    }
 }
 a.telefone2{
     padding-bottom: 50px;
@@ -211,22 +207,30 @@ table{
     display: flex;
 }
 .contato div{
-    padding: 20px;
+    padding: 10px;
 }
 .redesSociais{
     display: flex;
     flex-direction: column;
-    margin-left: 60px;
-    overflow: auto;
 }
 .redesSociais img{
-    width: 36px;
+    width: 30px;
 }
 .informacoes{
     width: 30%;
     margin-top: 20px;
 }
-
+@media (max-width: 945px){
+    .contato{
+        font-size: 20px;
+    }
+    .redesSociais img{
+        width: 20px;
+    }
+    .contato div{
+        padding: 20px;
+    }
+}
 div.avaliacoes{
     background-color: #A73232;
 }
@@ -244,6 +248,12 @@ a.avaliacoes{
     color: white;
     font-size: 23px;
     margin-bottom: 200px;
+    padding: 10px;
+}
+@media (max-width: 945px) {
+    .reviews{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 .review {
