@@ -14,98 +14,193 @@
     <a id="top"></a>
     <header>
         <nav>
-            <a class="logo" href="index.html"><img src="./imagens//nav/logo.png" alt="Logo" height="60"></a>
+            <a class="logo" href="index.html"><img src="./imagens/nav/logo.png" alt="Logo" height="60" width="60"></a>
             <input type="checkbox" id="menu-toggle">
             <label for="menu-toggle" class="menu-icon">&#9776;</label>
             <ul class="navbar">
                 <li><a href="#ancoraPromo">PROMOÇÃO</a></li>
                 <li><a href="#ancoraCardapio">CARDÁPIO</a></li>
                 <li><a href="#ancoraDelivery">DELIVERY</a></li>
-                <li><a href="avaliacoes.html">AVALIAÇÕES</a></li>
+                <li><a href="#ancoraAvaliacoes">AVALIAÇÕES</a></li>
+                <li><a href="#ancoraGaleria">GALERIA</a></li>
                 <li><a href="#ancoraContato">CONTATO</a></li>
             </ul>
-            <a class="user" href="avaliacoes.html#form"><img src="./imagens//nav/user.png" alt="User" height="57" width="53"></a>
+            <a class="user" href="#ancoraAvaliacoes"><img src="./imagens/nav/user.png" alt="User" height="57" width="53"></a>
         </nav>
     </header>
 
     <main>
-        <div class="banner"><img src="./imagens/banner.jpeg" alt="Banner"></div>
-        <a id="ancoraPromo"></a>
-        <p id="promo">Promoção da semana!</p>
-        <div id="video">
-            <iframe src="https://www.youtube.com/embed/T9JsN7i4XvE" title="Promoção da semana" style="border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
+        <section class="banner-section">
+            <picture>
+                <source media="(min-width: 1200px)" srcset="./imagens/banner.webp" type="image/webp" width="1920" height="600">
+                <source media="(min-width: 768px)" srcset="./imagens/banner-medio.webp" type="image/webp" width="1200" height="450">
+                <img src="./imagens/banner-pequeno.webp" alt="Banner Sushi Delivery" width="768" height="400" loading="eager">
+            </picture>
+        </section>
 
-        <p id="ancoraCardapio">Cardápio:</p>
-        <div class="cardapio">
+        <section>
+            <a id="ancoraPromo"></a>
+            <p id="promo">Promoção da semana!</p>
+            <div id="video">
+                <iframe src="https://www.youtube.com/embed/T9JsN7i4XvE" title="Promoção da semana" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+            </div>
+        </section>
 
-            <figure>
-                <img src="./imagens/cardapio/cardapio1.jpg">
-                <figcaption>LÁMEN R$30</figcaption>
-            </figure>
-            <figure>
-                <img src="./imagens/cardapio/cardapio2.jpg">
-                <figcaption>KABURY R$80</figcaption>
-            </figure>
-            <figure>
-                <img src="./imagens/cardapio/cardapio3.jpg">
-                <figcaption>GUNKA R$25</figcaption>
-            </figure>
-            <figure>
-                <img src="./imagens/cardapio/cardapio4.jpg">
-                <figcaption>NIGUIRI R$28</figcaption>
-            </figure>
-            <figure>
-                <img src="./imagens/cardapio/cardapio5.jpeg">
-                <figcaption>HOT EBI R$39</figcaption>
-            </figure>
-            <figure>
-                <img src="./imagens/cardapio/cardapio6.png">
-                <figcaption>URAMAKI R$57</figcaption>
-            </figure>
+        <section>
+            <p id="ancoraCardapio">Cardápio:</p>
+            <div class="cardapio">
+                <figure>
+                    <img src="./imagens/cardapio/cardapio1.jpg" alt="Lámen" width="300" height="300" loading="lazy">
+                    <figcaption>LÁMEN R$30</figcaption>
+                </figure>
+                <figure>
+                    <img src="./imagens/cardapio/cardapio2.jpg" alt="Kabury" width="300" height="300" loading="lazy">
+                    <figcaption>KABURY R$80</figcaption>
+                </figure>
+                <figure>
+                    <img src="./imagens/cardapio/cardapio3.jpg" alt="Gunka" width="300" height="300" loading="lazy">
+                    <figcaption>GUNKA R$25</figcaption>
+                </figure>
+                <figure>
+                    <img src="./imagens/cardapio/cardapio4.jpg" alt="Niguiri" width="300" height="300" loading="lazy">
+                    <figcaption>NIGUIRI R$28</figcaption>
+                </figure>
+                <figure>
+                    <img src="./imagens/cardapio/cardapio5.jpeg" alt="Hot Ebi" width="300" height="300" loading="lazy">
+                    <figcaption>HOT EBI R$39</figcaption>
+                </figure>
+                <figure>
+                    <img src="./imagens/cardapio/cardapio6.png" alt="Uramaki" width="300" height="300" loading="lazy">
+                    <figcaption>URAMAKI R$57</figcaption>
+                </figure>
+            </div>
             
-        </div>
-        
-        <div class="adicionais">
-            <p>Adicionais:</p>
-            <ul>
-                <li>Hashi R$02,00</li>
-                <li>Refrigerante Lata R$5,00</li>
-                <li>Refrigerante 2l R$14,00</li>
-                <li>Molho Tarê R$13,00</li>
-                <li>Wasabi R$12,00</li>
-                <li>Gengibre R$03,00</li>
-            </ul>
-        </div>
+            <div class="adicionais">
+                <p>Adicionais:</p>
+                <ul>
+                    <li>Hashi R$02,00</li>
+                    <li>Refrigerante Lata R$5,00</li>
+                    <li>Refrigerante 2l R$14,00</li>
+                    <li>Molho Tarê R$13,00</li>
+                    <li>Wasabi R$12,00</li>
+                    <li>Gengibre R$03,00</li>
+                </ul>
+            </div>
+        </section>
 
-        <p id="ancoraDelivery">Delivery:</p>
-        <div class="delivery">
-            <a>Ligue para a gente!</a><br><br>
-            <a class="telefone"><img src="./imagens/delivery/chamada-telefonica.png" alt="Telefone"> (53) 989956642</a>
-            <br>
-            <a class="telefone2"><img src="./imagens/delivery/entrega-rapida.png" alt="Telefone">(53) 989956643</a>
-        </div>
-        <div class="tabela">
-            <table>
-                <caption>Tabela de preços</caption>
-                <thead>
-                    <tr>
-                        <th>Centro</th>
-                        <th>R$8</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Cassino</td>
-                        <td>R$15</td>
-                    </tr>
-                    <tr>
-                        <td>São José do Norte</td>
-                        <td>R$20</td>
-                    </tr>                    
-                </tbody>
-            </table> 
-        </div>
+        <section>
+            <p id="ancoraDelivery">Delivery:</p>
+            <div class="delivery">
+                <a>Ligue para a gente!</a><br><br>
+                <a class="telefone"><img src="./imagens/delivery/chamada-telefonica.png" alt="Telefone" width="50" height="50"> (53) 989956642</a>
+                <br>
+                <a class="telefone2"><img src="./imagens/delivery/entrega-rapida.png" alt="Entrega rápida" width="70" height="70">(53) 989956643</a>
+            </div>
+            <div class="tabela">
+                <table>
+                    <caption>Tabela de preços</caption>
+                    <thead>
+                        <tr>
+                            <th>Centro</th>
+                            <th>R$8</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Cassino</td>
+                            <td>R$15</td>
+                        </tr>
+                        <tr>
+                            <td>São José do Norte</td>
+                            <td>R$20</td>
+                        </tr>                    
+                    </tbody>
+                </table> 
+            </div>
+        </section>
+
+        <section class="avaliacoes-section" id="ancoraAvaliacoes">
+            <h2>Deixe sua avaliação</h2>
+            <div class="avaliacoes-grid">
+                <div class="formulario-container">
+                    <form id="form">
+                        <fieldset>
+                            <legend>Seus dados:</legend>
+                            
+                            <div class="form-field">
+                                <label for="nome">Nome completo:</label>
+                                <input type="text" id="nome" name="nome" required>
+                            </div>
+                        
+                            <div class="form-field">
+                                <label for="email">E-mail:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-field">
+                                <label for="phone">Telefone:</label>
+                                <input type="tel" id="phone" name="phone" pattern="[0-9]{10,11}" required>
+                            </div>
+                        
+                            <div class="form-field">
+                                <label for="idade">Idade:</label>
+                                <input type="number" id="idade" name="idade" min="18" max="120" required>
+                            </div>
+                        
+                            <div class="form-field">
+                                <label for="genero">Gênero:</label>
+                                <select id="genero" name="genero" required>
+                                    <option value="">Selecione</option>
+                                    <option value="feminino">Feminino</option>
+                                    <option value="masculino">Masculino</option>
+                                    <option value="outro">Outro</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-field">
+                                <label for="data">Data da visita:</label>
+                                <input type="date" id="data" name="data">
+                            </div>
+                        
+                            <div class="form-field full-width">
+                                <label for="mensagem">Comentários:</label>
+                                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                            </div>
+                            
+                            <div class="radio-group">
+                                <p>Localidade:</p>
+                                <input type="radio" name="localidade" id="centro" value="centro" required>
+                                <label for="centro">Centro</label>
+                                
+                                <input type="radio" name="localidade" id="cassino" value="cassino">
+                                <label for="cassino">Cassino</label>
+                                
+                                <input type="radio" name="localidade" id="sjnorte" value="sjnorte">
+                                <label for="sjnorte">São José do Norte</label>
+                            </div>
+                        </fieldset>
+
+                        <div class="submit-container">
+                            <button type="submit">Enviar Avaliação</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="figura-grande"></div>
+            </div>
+        </section>
+
+        <section class="galeria-section" id="ancoraGaleria">
+            <h2>Nossa Galeria</h2>
+            <div class="photo-grid">
+                <div class="photo-item"></div>
+                <div class="photo-item"></div>
+                <div class="photo-item"></div>
+                <div class="photo-item"></div>
+                <div class="photo-item"></div>
+                <div class="photo-item"></div>
+                <div class="photo-item"></div>
+            </div>
+        </section>
     </main>
     <footer>
         <a id="ancoraContato"></a>
