@@ -106,6 +106,41 @@ nav ul{
     display: block;
 }
 
+.carousel-section {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.carousel-section .carousel-inner {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.carousel-section .carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(167, 50, 50, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media (max-width: 945px) {
+    .carousel-section .carousel-item img {
+        height: 350px;
+    }
+}
+
+@media (max-width: 600px) {
+    .carousel-section .carousel-item img {
+        height: 250px;
+    }
+}
+
 #promo{
     font-size: 50px;
     margin-left: 55px;
@@ -190,22 +225,31 @@ a.telefone2 img{
 a.telefone2{
     padding-bottom: 50px;
 }
-td, caption, th {
-    border: 2px solid #000000;
-    text-align: center;
-    padding: 20px;
-    font-weight: normal;
-    font-size: 30px;
-    border-radius: 20px;
-}
-table{
+
+table {
     width: 40%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
+
+table caption {
+    caption-side: top;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px;
+    color: #A73232;
+}
+
 .tabela{
     display: flex;
     justify-content: center;
     margin-top: 60px;
     margin-bottom: 60px;
+}
+
+@media (max-width: 945px) {
+    table {
+        width: 90%;
+    }
 }
 
 .adicionais{
